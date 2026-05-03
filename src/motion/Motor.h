@@ -25,6 +25,7 @@ public:
     void begin();
     void arm();
     void disarm();
+
     // speed: 0.0 to 100.0 (Percentage)
     void setThrust(float percentage) const;
     void stop() const;
